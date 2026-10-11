@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body { @apply bg-nb-paper font-sans text-black antialiased; }
+    ::selection { @apply bg-nb-pink; }
+}
